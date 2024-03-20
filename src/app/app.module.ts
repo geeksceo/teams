@@ -10,6 +10,9 @@ import { BoardComponent } from './components/board/board.component';
 import { ListComponent } from './components/list/list.component';
 import { TicketComponent } from './components/ticket/ticket.component';
 import { ChatsComponent } from './components/chats/chats/chats.component';
+import { LoginComponent } from './components/auth/login/login.component';
+import { RegisterComponent } from './components/auth/register/register.component';
+import { MainComponent } from './components/main/main.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ChatsComponent } from './components/chats/chats/chats.component';
     BoardComponent,
     ListComponent,
     TicketComponent,
-    ChatsComponent
+    ChatsComponent,
+    LoginComponent,
+    RegisterComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
