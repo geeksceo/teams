@@ -5,6 +5,7 @@ import { ChatsComponent } from './components/chats/chats/chats.component';
 import { LoginComponent } from './components/auth/login/login.component';
 import { RegisterComponent } from './components/auth/register/register.component';
 import { MainComponent } from './components/main/main.component';
+import { WorkManagmentComponent } from './components/work-managment/work-managment.component';
 
 const routes: Routes = [
   {path: 'sign-in', component: LoginComponent},
@@ -17,7 +18,7 @@ const routes: Routes = [
     component: MainComponent,
     // canActivate: [authGuard],
     children: [
-      {path:'b', component: BoardComponent,}, // boards
+      {path:'b', component: WorkManagmentComponent,}, // boards
       {path:'c', component: ChatsComponent}, // chats
     ]
   },

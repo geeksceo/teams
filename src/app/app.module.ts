@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http'
 
 // import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -13,6 +14,7 @@ import { ChatsComponent } from './components/chats/chats/chats.component';
 import { LoginComponent } from './components/auth/login/login.component';
 import { RegisterComponent } from './components/auth/register/register.component';
 import { MainComponent } from './components/main/main.component';
+import { WorkManagmentComponent } from './components/work-managment/work-managment.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +26,13 @@ import { MainComponent } from './components/main/main.component';
     ChatsComponent,
     LoginComponent,
     RegisterComponent,
-    MainComponent
+    MainComponent,
+    WorkManagmentComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
     // BrowserAnimationsModule,
     // NoopAnimationsModule
   ],
