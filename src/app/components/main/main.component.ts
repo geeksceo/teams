@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class MainComponent {
 
+  secondSideBard: boolean = false;
+
+  toggleSideBar(value: boolean) {
+    console.log(value);
+    this.secondSideBard = value;
+   }
+
 }

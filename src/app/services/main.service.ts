@@ -14,7 +14,7 @@ export class MainService {
 
 
   getUser(): Observable<User> {
-    return this.http.get<User>("http://localhost:9090/api/v1/users/1");
+    return this.http.get<User>("http://localhost:9090/api/v1/users/1/teams");
   }
 
   getTeams(): Observable<User[]> {

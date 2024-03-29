@@ -15,6 +15,7 @@ import { LoginComponent } from './components/auth/login/login.component';
 import { RegisterComponent } from './components/auth/register/register.component';
 import { MainComponent } from './components/main/main.component';
 import { WorkManagmentComponent } from './components/work-managment/work-managment.component';
+import { SideBarComponent } from './components/side-bar/side-bar.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { WorkManagmentComponent } from './components/work-managment/work-managme
     LoginComponent,
     RegisterComponent,
     MainComponent,
-    WorkManagmentComponent
+    WorkManagmentComponent,
+    SideBarComponent
   ],
   imports: [
     BrowserModule,

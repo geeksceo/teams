@@ -10,7 +10,7 @@ import { WorkManagmentComponent } from './components/work-managment/work-managme
 const routes: Routes = [
   {path: 'sign-in', component: LoginComponent},
   {path: 'sign-up', component: RegisterComponent},
-  {path: '', redirectTo: '/c', pathMatch: 'full'},
+  {path: '', redirectTo: '/b', pathMatch: 'full'},
   {path: 'login', redirectTo: '/sign-in', pathMatch: 'full'},
   {path: 'register', redirectTo: '/sign-up', pathMatch: 'full'},
   {
